@@ -22,6 +22,7 @@ The project will not be going forward as work required to set up a host with a s
 - 2x Neopixel drivers
 - SPI port for an ADXL345
 - 2x connectors for a BTT smart filament sensor
+- Vin Voltage Sensor
 - Serial connections for Klipper 
 - USB C connection for Klipper
 - DFU Enabled with "BOOT0" button
@@ -33,6 +34,7 @@ The board was targeted for new Klipper users and was designed with an eye toward
 
 - No jumpers. Nothing to select or configure
 - "Orthogonal" interfaces.  The circuitry for all the stepper motor drivers and end stops are the same, eliminating the need for wiring specific interfaces to specific devices
+- Logical grouping of connectors (for example, the Thermistor connectors are beside the heater screw terminals)
 - Mounting for Raspberry/Orange Pi zero 2w boards with pogo pin connections which eliminates the need for the user to solder on a connector
 - Color coded LEDs for power, MCU status, heaters, fans and endstop sensors 
 - Enhanced silk screen information to minimize cross referencing to other sources
