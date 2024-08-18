@@ -60,6 +60,6 @@ Finally, here is a USB connected GP 4x2209 used to control a CoreXY 3D printer. 
 
 ### Project Conclusion
 
-This project has been very educational and rewarding; however, there are no plans on moving foward with it.  The primary reason is that configuring the serial interface is different for each of the various possible hosts as well as being is fairly complex, especially compared to a USB interface.  It is felt that the complexity of implementing the different serial interfaces would be difficult for new users and unduly onerous to support.  
+This project has been very educational and rewarding; however, there are no plans on moving foward with it.  The primary reason is that configuring the serial interface is different for each of the various possible hosts.  Along with being different, the procedure is fairly complex, especially compared to a USB interface, and more than I feel comfortable giving to a new user.  I would also expect that supporting the procedure for different hosts to be quite onerous.  In comparison, using USB for communications does not require any special procedure.  
 
 There are no plans for releasing the Gerbers as there was a problem with the SDM1A40CSP-7 diode footprint; the pins are reversed resulting in the board not working without modificatino.
